@@ -1,0 +1,121 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("Weapon Masters", "Midnight")
+local Tab = Window:NewTab("Farming")
+local Section = Tab:NewSection("Strenght")
+
+Section:NewToggle("Autofarm", "Automaticly farms Strenght", function(state)
+    if state then
+        loadstring(game:HttpGet('https://pastebin.com/raw/74zBG4bF'))()
+    else
+        loadstring(game:HttpGet('https://pastebin.com/raw/unCBqewR'))()
+    end
+end)
+
+local Section = Tab:NewSection("Rebirth")
+
+Section:NewToggle("Autofarm 1", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://pastebin.com/raw/aeWN7wf6'))()
+    else
+        loadstring(game:HttpGet('https://pastebin.com/raw/E82C4bam'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 2", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://pastebin.com/raw/MkLPJ2Cr'))()
+    else
+        loadstring(game:HttpGet('https://pastebin.com/raw/wDPFaN5g'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 3", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://pastebin.com/raw/s4aAj1Pr'))()
+    else
+        loadstring(game:HttpGet('https://pastebin.com/raw/JVYRkDkT'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 4", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://pastebin.com/raw/65qeDBL0'))()
+    else
+        loadstring(game:HttpGet('https://pastebin.com/raw/a42jTN72'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 5", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://pastebin.com/raw/NpmeY342'))()
+    else
+        loadstring(game:HttpGet('https://pastebin.com/raw/38Pfp22C'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 6", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/test'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/hgf'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 7", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/gfd'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/fd'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 8", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/bvgfd'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/gvf'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 9", "Automaticly farms Rebirth", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/hello'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/hello2'))()
+    end
+end)
+
+local Section = Tab:NewSection("Prestiges")
+
+Section:NewToggle("Autofarm 1", "Automaticly farms Prestige", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre1'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre1.1'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 2", "Automaticly farms Prestige", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre2'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre2.2'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 3", "Automaticly farms Prestige", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre3'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre%203.3'))()
+    end
+end)
+
+Section:NewToggle("Autofarm 4", "Automaticly farms Prestige", function(state)
+    if state then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre4'))()
+    else
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Marcel10009/test/main/pre4.4'))()
+    end
+end)
